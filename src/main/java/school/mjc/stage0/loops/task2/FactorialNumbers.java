@@ -1,14 +1,18 @@
 package school.mjc.stage0.loops.task2;
 
 public class FactorialNumbers {
-    public void printFactorialRow(int printToInclusive) {
-        int counter = 1;
-        long factorials = 1;
-
-        while (counter <= printToInclusive)
-            factorials *= counter;
-        System.out.println(factorials);
-        counter++;
+    public static  void printFactorialRow(int printToInclusive) {
+        int i = 0;
+        int cons = 1;
+        while (i <= printToInclusive){
+            if (i <= 1)
+                System.out.println(1);
+            else {
+                cons *= i;
+                System.out.println(cons);
+            }
+            i++;
+        }
     }
 }
 
