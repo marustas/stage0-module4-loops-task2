@@ -4,8 +4,8 @@ public class PowerOfTwo {
     public void printPower(int power) {
         double i = 0;
         if (power >= 0) {
-            while (i < power) {
-                double result = Math.pow(i, 2);
+            while (i <= power) {
+                double result = Math.pow(2, i);
                 System.out.println(result);
                 i++;
             }
