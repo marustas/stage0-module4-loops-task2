@@ -4,7 +4,7 @@ public class PowerOfTwo {
     public void printPower(int power) {
         int i = 0;
         while (i < power) {
-            System.out.println(2 ^ i);
+            System.out.println(Math.pow(i,2));
             i++;
         }
 
