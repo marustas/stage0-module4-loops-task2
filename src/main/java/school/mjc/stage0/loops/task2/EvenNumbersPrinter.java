@@ -2,12 +2,12 @@ package school.mjc.stage0.loops.task2;
 
 public class EvenNumbersPrinter {
     public static void printEvenNumbers(int printTillInclusive) {
-        int counter = 0;
-        while (counter <= printTillInclusive) {
-            if (counter > 0 && counter % 2 == 0) {
-                System.out.println(counter);
+        int count = 0;
+        while (count <= printTillInclusive) {
+            if (count > 0 && count % 2 == 0) {
+                System.out.println(count);
             }
-            counter++;
+            count++;
         }
     }
 }
