@@ -12,12 +12,12 @@ public class Multiplication {
             }
         } else if (multiplyByAndToInclusive < 0) {
             while (count >= multiplyByAndToInclusive) {
-                result = count * multiplyByAndToInclusive;
+                result = -1*count * multiplyByAndToInclusive;
                 System.out.println(result);
                 count--;
             }
         } else {
-            System.out.println("");
+            System.out.print("");
         }
     }
 }

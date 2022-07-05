@@ -5,7 +5,7 @@ public class PowerOfTwo {
         if (power >= 0) {
             int e;
             int result;
-            for (int i = 0; i < power; i++) {
+            for (int i = 0; i <= power; i++) {
                 result = 1;
                 e = i;
                 while (e > 0) {

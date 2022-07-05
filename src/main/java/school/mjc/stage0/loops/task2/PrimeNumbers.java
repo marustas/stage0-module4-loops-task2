@@ -7,7 +7,7 @@ public class PrimeNumbers {
             if (count == 2 || count == 3 || count == 5 || count == 7) {
                 System.out.println(count);
                 count++;
-            } else if (count % 2 == 0 || count % 3 == 0 || count % 4 == 0 || count % 5 == 0) {
+            } else if (count % 2 == 0 || count % 3 == 0 || count % 4 == 0 || count % 5 == 0 || count==1) {
                 count++;
             } else {
                 System.out.println(count);
